@@ -120,23 +120,23 @@ Creating an account on GitHub. Then open the computer terminal, input the follow
 
    `git init`
 
-4. Connecting the local repository to the GitHub repository by URL.
-
-   `git remote add origin git@github.com:SummerSpider/github_test.git`
-
-5. Pulling files from the GitHub repository to your local environment
-
-   `git pull origin main`
-
-6. Checking the current branch in the local repository 
+4. Checking the current branch in the local repository 
 
    `git branch` 
 
    *Make sure the branch name matches the one used in your push command and the GitHub branch.*
 
-7. Renaming branch as main
+5. Renaming branch as main
 
    `git branch -m main`
+
+6. Connecting the local repository to the GitHub repository by URL.
+
+   `git remote add origin git@github.com:SummerSpider/XXX.git`
+
+7. Pulling files from the GitHub repository to your local environment
+
+   `git pull origin main`
 
 8. Push updated files from your local environment to GitHub
 
